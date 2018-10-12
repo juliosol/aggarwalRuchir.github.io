@@ -624,4 +624,21 @@
 .icon-ZIP:before {
     content: "\e9c7";
 }
-
+.icon-Stats:before {
+    content: "\f080";
+}
+.icon-Transformer:before {
+    content: "\ecd4";
+}
+.icon-Cog:before {
+    content: "\f085";
+}
+.icon-Microchip:before {
+    content: "\f2db";
+}
+.icon-Monitor:before {
+    content: "\ec56";
+}
+.icon-Code:before {
+    content: "\f121";
+}

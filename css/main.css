@@ -18,9 +18,10 @@
  *  11. skills
  *  12. credentials
  *  13. portfolio
- *  14. stats
- *  15. contact
- *  16. footer
+ *  14. works
+ *  15. stats
+ *  16. contact
+ *  17. footer
  *
  * =================================================================== */
 
@@ -2434,7 +2435,7 @@ header .header-logo a {
  * ------------------------------------------------------------------- */
 #portfolio {
 	background: #EBEBEB;
-	min-height: 800px;
+	min-height: 300px;
 	position: relative;
 	padding: 12rem 0 15rem;
 }
@@ -2684,9 +2685,496 @@ header .header-logo a {
 
 }
 
+/* ===================================================================
+ *  14. works - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+#works {
+	position: relative;
+	padding: 10.8rem 0 10.8rem;
+	background-color: #FFFFFF;
+	min-height: 300px;
+}
+
+#works h3 {
+	font-family: "montserrat-bold", sans-serif;
+	font-size: 1.6rem;
+	color: #4C2405;
+	text-transform: uppercase;
+	letter-spacing: .15rem;
+	margin: 0 0 0 .3rem;
+}
+
+#works h1 {
+	font-family: "librebaskerville-bold", serif;
+	font-size: 3.3rem;
+	line-height: 1.455;
+}
+
+.works-profile-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #EBEBEB;
+	width: 50%;
+	background-image: url(../images/profile-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	opacity: .35;
+}
+
+.works-wrap {
+	width: 94%;
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+.works-wrap:before,
+.works-wrap:after {
+	content: "";
+	display: table;
+}
+
+.works-wrap:after {
+	clear: both;
+}
+
+.works-profile,
+.works-services {
+	float: left;
+	width: 50%;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.works-profile {
+	padding-right: 9rem;
+	position: relative;
+	z-index: 2;
+}
+
+.works-profile p.lead {
+	color: #636363;
+}
+
+.works-profile .about-profile-bg {
+	display: none;
+}
+
+.works-services {
+	padding-left: 9rem;
+	position: relative;
+}
+
+.works-services p.lead {
+	color: #757575;
+}
+
+.works-services ul.services {
+	list-style: none;
+	margin-left: 0;
+}
+
+.works-services ul.services li {
+	padding-left: 0;
+	margin-bottom: .6rem;
+	position: relative;
+}
+
+.works-services ul.services li h4 {
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	letter-spacing: .15rem;
+	line-height: 1.313;
+	margin-bottom: .6rem;
+}
+
+.works-services ul.services li p {
+	margin-bottom: 1.5rem;
+	color: #4f4f4f;
+}
+
+.works-services ul.services .icon-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: rgba(46, 22, 3, 0.4);
+	color: #4C2405;
+}
+
+.works-services ul.services .icon-wrap i {
+	font-size: 5rem;
+}
+
+.works-services ul.services .item-photography .icon-wrap {
+	top: -.3rem;
+}
+
+.works-services ul.services .item-webdesign .icon-wrap {
+	top: -.7rem;
+}
+
+.works-services ul.services .item-uiux .icon-wrap {
+	top: -.1rem;
+}
+
+.works-services ul.services .service-item {
+	padding-left: 8rem;
+}
+
+#works2 {
+	position: relative;
+	padding: 10.8rem 0 10.8rem;
+	background-color: #EBEBEB;
+	min-height: 300px;
+}
+
+#works2 h3 {
+	font-family: "montserrat-bold", sans-serif;
+	font-size: 1.6rem;
+	color: #4C2405;
+	text-transform: uppercase;
+	letter-spacing: .15rem;
+	margin: 0 0 0 .3rem;
+}
+
+#works2 h1 {
+	font-family: "librebaskerville-bold", serif;
+	font-size: 3.3rem;
+	line-height: 1.455;
+}
+
+.works2-profile-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #EBEBEB;
+	width: 50%;
+	background-image: url(../images/profile-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	opacity: .35;
+}
+
+.works2-wrap {
+	width: 94%;
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+.works2-wrap:before,
+.works2-wrap:after {
+	content: "";
+	display: table;
+}
+
+.works2-wrap:after {
+	clear: both;
+}
+
+.works2-profile,
+.works2-services {
+	float: left;
+	width: 50%;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.works2-profile {
+	padding-right: 9rem;
+	position: relative;
+	z-index: 2;
+}
+
+.works2-profile p.lead {
+	color: #636363;
+}
+
+.works2-profile .about-profile-bg {
+	display: none;
+}
+
+.works2-services {
+	padding-left: 9rem;
+	position: relative;
+}
+
+.works2-services p.lead {
+	color: #757575;
+}
+
+.works2-services ul.services {
+	list-style: none;
+	margin-left: 0;
+}
+
+.works2-services ul.services li {
+	padding-left: 0;
+	margin-bottom: .6rem;
+	position: relative;
+}
+
+.works2-services ul.services li h4 {
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	letter-spacing: .15rem;
+	line-height: 1.313;
+	margin-bottom: .6rem;
+}
+
+.works2-services ul.services li p {
+	margin-bottom: 1.5rem;
+	color: #4f4f4f;
+}
+
+.works2-services ul.services .icon-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: rgba(46, 22, 3, 0.4);
+	color: #4C2405;
+}
+
+.works2-services ul.services .icon-wrap i {
+	font-size: 5rem;
+}
+
+.works2-services ul.services .item-photography .icon-wrap {
+	top: -.3rem;
+}
+
+.works2-services ul.services .item-webdesign .icon-wrap {
+	top: -.7rem;
+}
+
+.works2-services ul.services .item-uiux .icon-wrap {
+	top: -.1rem;
+}
+
+.works2-services ul.services .service-item {
+	padding-left: 8rem;
+}
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * about 
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width:1024px) {
+	.works-profile {
+		padding-right: 5rem;
+	}
+
+	.works-services {
+		padding-left: 5rem;
+	}
+
+}
+
+@media only screen and (max-width:900px) {
+	.works-profile {
+		padding-right: 4rem;
+	}
+
+	.works-services {
+		padding-left: 4rem;
+	}
+
+}
+
+@media only screen and (max-width:768px) {
+	#works {
+		padding-top: 0;
+	}
+
+	.works-wrap {
+		padding: 0;
+		width: 100%;
+	}
+
+	.works-profile-bg {
+		display: none;
+	}
+
+	.works-profile,
+	.works-services {
+		float: none;
+		width: 100%;
+		padding-top: 10.8rem;
+		padding-left: 45px;
+		padding-right: 45px;
+	}
+
+	.works-profile .intro,
+	.works-services .intro {
+		text-align: center;
+	}
+
+	.works-profile {
+		padding-bottom: 9rem;
+	}
+
+	.works-profile .about-profile-bg {
+		display: block;
+		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width:600px) {
+	.works-profile,
+	.works-services {
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+
+}
+
+@media only screen and (max-width:400px) {
+	.works-profile,
+	.works-services {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.works-services {
+		text-align: center;
+	}
+
+	.works-services ul.services .icon-wrap {
+		position: static;
+		margin-bottom: .6rem;
+	}
+
+	.works-services ul.services .icon-wrap i {
+		font-size: 6rem;
+	}
+
+	.works-services ul.services .service-item {
+		padding-left: 0;
+		margin-bottom: 3rem;
+	}
+
+	.works-services ul.services .service-item h4 {
+		margin-bottom: 1.5rem;
+	}
+
+}
+
+
+@media only screen and (max-width:1024px) {
+	.works2-profile {
+		padding-right: 5rem;
+	}
+
+	.works-services {
+		padding-left: 5rem;
+	}
+
+}
+
+@media only screen and (max-width:900px) {
+	.works2-profile {
+		padding-right: 4rem;
+	}
+
+	.works2-services {
+		padding-left: 4rem;
+	}
+
+}
+
+@media only screen and (max-width:768px) {
+	#works2 {
+		padding-top: 0;
+	}
+
+	.works2-wrap {
+		padding: 0;
+		width: 100%;
+	}
+
+	.works2-profile-bg {
+		display: none;
+	}
+
+	.works2-profile,
+	.works2-services {
+		float: none;
+		width: 100%;
+		padding-top: 10.8rem;
+		padding-left: 45px;
+		padding-right: 45px;
+	}
+
+	.works2-profile .intro,
+	.works2-services .intro {
+		text-align: center;
+	}
+
+	.works2-profile {
+		padding-bottom: 9rem;
+	}
+
+	.works2-profile .about-profile-bg {
+		display: block;
+		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width:600px) {
+	.works2-profile,
+	.works2-services {
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+
+}
+
+@media only screen and (max-width:400px) {
+	.works2-profile,
+	.works2-services {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.works2-services {
+		text-align: center;
+	}
+
+	.works2-services ul.services .icon-wrap {
+		position: static;
+		margin-bottom: .6rem;
+	}
+
+	.works2-services ul.services .icon-wrap i {
+		font-size: 6rem;
+	}
+
+	.works2-services ul.services .service-item {
+		padding-left: 0;
+		margin-bottom: 3rem;
+	}
+
+	.works2-services ul.services .service-item h4 {
+		margin-bottom: 1.5rem;
+	}
+
+}
+
 
 /* ===================================================================
- *  14. stats - (_layout.scss)
+ *  15. stats - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
 #stats {
@@ -2759,7 +3247,7 @@ header .header-logo a {
 
 
 /* ===================================================================
- *  15. contact - (_layout.scss)
+ *  16. contact - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
 #contact {
@@ -3068,7 +3556,7 @@ header .header-logo a {
 }
 
 /* ===================================================================
- *  16. footer - (_layout.scss)
+ *  17. footer - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
 footer {

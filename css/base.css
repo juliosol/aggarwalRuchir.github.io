@@ -360,8 +360,8 @@ textarea {
  *
  * ------------------------------------------------------------------- */
 .row {
-	width: 94%;
-	max-width: 1170px;
+	width: 96%;
+	max-width: 1400px;
 	margin: 0 auto;
 }
 
@@ -407,6 +407,7 @@ textarea {
 .col-three,
 .col-1-4 {
 	width: 25%;
+    
 }
 
 .col-four,
