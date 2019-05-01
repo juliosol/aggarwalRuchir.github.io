@@ -1,8 +1,6 @@
 **Status:** Archive (code is provided as-is, no updates expected)
 
 ## Multi-Step Curiosity Driven Learning ##
-#### [[Project Website]](https://aggarwalruchir.github.io/) [[Demo Video]]()
-
 Ruchir Aggarwal*, Kushantha U. Attanayake*, Dennis Li*, Julio Soldevilla*, Poorani Ravindhiran<br/>
 (&#42; alphabetical ordering, equal contribution)
 
